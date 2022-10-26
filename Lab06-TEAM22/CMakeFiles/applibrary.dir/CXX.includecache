@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/BST.cpp
+iostream
+-
+Node.h
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.h
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.cpp
+iostream
+-
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.h
+memory
+-
+Node.cpp
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.cpp
+

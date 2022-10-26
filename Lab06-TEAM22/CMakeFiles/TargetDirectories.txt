@@ -1,0 +1,4 @@
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/CMakeFiles/rebuild_cache.dir
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/CMakeFiles/edit_cache.dir
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/CMakeFiles/runMain.dir
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/CMakeFiles/runTests.dir

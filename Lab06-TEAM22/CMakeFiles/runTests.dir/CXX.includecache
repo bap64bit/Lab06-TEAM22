@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/BST.cpp
+iostream
+-
+Node.h
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.h
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/BST.h
+string
+-
+iostream
+-
+array
+-
+vector
+-
+memory
+-
+Node.h
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.h
+BST.cpp
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/BST.cpp
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.cpp
+iostream
+-
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.h
+memory
+-
+Node.cpp
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/Node.cpp
+
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/tests.cpp
+BST.h
+/home/lindos/Desktop/hw/data-structs/Lab06-TEAM22/BST.h
+gtest/gtest.h
+-
+
