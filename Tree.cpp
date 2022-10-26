@@ -59,16 +59,20 @@ Node<ItemType>::~Node()
 
 
 
-
 template <class ITEM>
 Tree <ITEM>::Tree(){
     
 }
 
 template <class ITEM>
-void Tree <ITEM>::Insert(std::shared_ptr<Node<ITEM>>node){
+void Tree <ITEM>::Insert(std::shared_ptr<Node<ITEM>>node, ITEM key){
     
-    
+    if (node==NULL)
+	{
+		std::shared_ptr<ITEM> node(new ITEM(key));
+		std::shared_ptr<ITEM> node;
+	}
+	
 
 }
 
@@ -104,4 +108,9 @@ void Tree <ITEM>::Clear(){
 template <class ITEM>
 std::vector<std::string> Tree <ITEM>::GetAllAscending(){
 
+}
+
+template <class ITEM>
+Tree <ITEM>::~Tree(){
+    
 }

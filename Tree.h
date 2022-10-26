@@ -26,9 +26,9 @@ public:
 
 
 
-template <class ITEM> 
+template<class ITEM> 
 
-class Tree : public Node
+class Tree : public Node<ITEM>
 {
 
 protected:
@@ -38,7 +38,7 @@ public:
     Tree();
 	~Tree();
 
-	void Insert(std::shared_ptr<Node<ITEM>>node)=0;
+	void Insert(std::shared_ptr<Node<ITEM>>node, ITEM key)=0;
 	std::shared_ptr<Node<ITEM>> Find(ITEM target);
 	int Size();
 	std::vector<std::string> GetAllAscending();
